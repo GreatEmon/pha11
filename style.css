@@ -8,7 +8,9 @@
 body{
     background-color: #F5F5F5;
 }
-
+h1{
+    color: #0E0E0E;
+}
 header,main{
     max-width: 1280px;
     margin: 0 auto;
@@ -25,6 +27,7 @@ header nav{
 header nav h1{
     font-size: 32px;
     font-weight: bold;
+    color: #0E0E0E;
 }
 
 header nav button{
