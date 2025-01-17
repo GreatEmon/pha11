@@ -115,6 +115,7 @@ header nav button:hover{
 }
 
 #piller .cards .card{
+    flex: 1;
     padding: 24px;
     background-color: #fff;
     border-radius: 16px;
@@ -162,6 +163,7 @@ header nav button:hover{
 }
 
 #vision .cards .card{
+    flex: 1;
     padding: 32px;
     background-color: #fff;
     border-radius: 16px;
@@ -191,7 +193,7 @@ header nav button:hover{
     margin-bottom: 24px;
 }
 #vision .cards .card button{
-    background-color: #5490F5;
+    cursor: pointer;
     color: #FFFFFF;
     padding: 11px 20px;
     border: none;
@@ -232,6 +234,21 @@ header nav button:hover{
     font-size: 16px;
     color: rgba(14, 14, 14, 0.6);
     font-weight: 400;
+}
+#vision .cards .btn1{
+    background-color: #5490F5;
+}
+#vision .cards button:hover{
+    background-color: #fff;
+    color: #5490F5;
+}
+
+#vision .btn2{
+    background-color: #09A15C;
+    margin-top: 22px;
+}
+#vision .btn3{
+    background-color: #FFC239;
 }
 
 /* opinion */
@@ -315,6 +332,7 @@ header nav button:hover{
     font-size: 32px;
     font-weight: bold;
     margin-bottom: 12px;
+    color: rgba(14, 14, 14, 0.8);
 }
 #recent-news .card .content img{
     width: 134px;
@@ -345,8 +363,13 @@ header nav button:hover{
     color: #FFFFFF;
     border: none;
     border-radius: 8px;
+    cursor: pointer;
 }
-
+#recent-news .content button:hover{
+    background-color: transparent;
+    color: #0E0E0E;
+    border: 1px solid #006A50;
+}
 /* donate  */
 #donate{
     max-width: 1080px;
@@ -382,8 +405,9 @@ header nav button:hover{
     font-size: 40px;
     font-weight: bold;
     border-radius: 16px;
+    cursor: pointer;
 }
-
+#donate .donate_box .amount:hover,
 #donate .donate_box .color{
     background-color: #C6E4D6;
 }
@@ -408,8 +432,13 @@ header nav button:hover{
     color: #FFFFFF;
     border: none;
     margin-bottom: 80px;
+    cursor: pointer;
 }
-
+#donate button:hover{
+    background-color: transparent;
+    color: #0E0E0E;
+    border: 1px solid #006A50;
+}
 /* newsletter */
 #newsletter{
     background-color:#C6E4D6 ;
@@ -451,8 +480,13 @@ header nav button:hover{
     border-radius: 0 8px 8px 0;
     border: none;
     color: #FFFFFF;
+    cursor: pointer;
 }
-
+#newsletter .input button:hover{
+    background-color: transparent;
+    color: #0E0E0E;
+    border: 1px solid #006A50;
+}
 
 /* footer */
 footer h1{
@@ -465,6 +499,7 @@ footer hr{
     color: rgba(14, 14, 14, 0.1);
 }
 footer .social_media{
+    cursor: pointer;
     display: flex;
     gap:20px ;
     justify-content: center;
